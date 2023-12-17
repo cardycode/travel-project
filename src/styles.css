@@ -5,6 +5,7 @@ body {
 .container {
   max-width: 1500px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .grid {
@@ -20,10 +21,22 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 80px;
+}
+
+section.secondary {
+  background: #f8f8f8;
+}
+
+.text-center {
+  text-align: center;
 }
 
 header {
@@ -79,8 +92,9 @@ main {
   color: #272044;
 }
 
-.oax1 {
+.img-resp {
   max-width: 100%;
+  display: block;
 }
 
 main h2 {
@@ -101,12 +115,54 @@ main h3 {
   margin: 0;
 }
 
+main h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0em;
+  margin: 0;
+}
+
+main h5 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0em;
+  margin: 0;
+}
+
 main p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0px;
   opacity: 0.7;
+}
+
+.card {
+  background-color: #ffffff;
+  margin: 30px 0;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 30px 0 10px;
+}
+
+.btn {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-align: center;
+  background: #462cb2;
+  padding: 16px 32px;
+  text-decoration: none;
 }
 
 footer {
